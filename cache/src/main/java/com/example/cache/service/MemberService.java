@@ -1,13 +1,14 @@
 package com.example.cache.service;
 
 import com.example.cache.domain.Member;
+import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
 @Service
 public class MemberService {
 
-    @Cacheable(value = "members")
+    @Cacheable(value = "members", key ="#id")
     public Member findById(long id){
         System.out.println("test");
 
@@ -23,5 +24,10 @@ public class MemberService {
                     .age(17)
                     .name("김아무개")
                     .build();
+    }
+
+    @CacheEvict(value = "members",key ="#id")
+    public void deleteMember(long id){
+        System.out.println("deleteMember");
     }
 }
