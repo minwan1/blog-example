@@ -21,7 +21,6 @@ public class CacheApplication {
 
     @Bean
     public CacheManager cacheManager() {
-        //A EhCache based Cache manager
         return new EhCacheCacheManager(ehCacheCacheManager().getObject());
     }
 
