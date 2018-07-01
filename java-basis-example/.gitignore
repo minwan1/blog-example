@@ -1,0 +1,14 @@
+.classpath
+.project
+.settings
+.DS_Store
+*.iml
+/.idea/
+build
+src/test/java/exploration
+.gradle
+spring-social-core/src/test/java/exploration
+bin
+.idea
+*.iml
+out
