@@ -7,10 +7,10 @@
 
 
 ## Java
-[HMAC란](https://github.com/minwan1/blog-example/tree/master/HMAC)
-[Java-basis](https://github.com/minwan1/blog-example/tree/master/java-basis-example)
+* [HMAC란](https://github.com/minwan1/blog-example/tree/master/HMAC) <br>
+* [Java-basis](https://github.com/minwan1/blog-example/tree/master/java-basis-example)<br>
 
 ## Spring
-[Spring cache 적용 예제](https://github.com/minwan1/blog-example/tree/master/cache)
-[Spring OAuth 구현 예제](https://github.com/minwan1/blog-example/tree/master/oauth)
-[AspectJ 프레임워크 사용해보기]()
+* [Spring cache 적용 예제](https://github.com/minwan1/blog-example/tree/master/cache)<br>
+* [Spring OAuth 구현 예제](https://github.com/minwan1/blog-example/tree/master/oauth)<br>
+* [AspectJ 프레임워크 사용해보기]() <br>
