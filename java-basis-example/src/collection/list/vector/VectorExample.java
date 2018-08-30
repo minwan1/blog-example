@@ -24,6 +24,9 @@ public class VectorExample {
         for(int i = 0; i<list.size(); i++){
             final Board board = list.get(i);
             System.out.println(board.subject + "\t" +board.content + "\t" + board.writer);
+//            제목1	내용1	글쓴이1
+//            제목2	내용2	글쓴이2
+//            제목4	내용4	글쓴이4
         }
 
     }

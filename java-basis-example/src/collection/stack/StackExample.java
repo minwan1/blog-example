@@ -16,6 +16,10 @@ public class StackExample {
         while(!coinBox.isEmpty()){
             Coin coin = coinBox.pop();
             System.out.println("꺼내온 동전: " + coin.getValue());
+//            꺼내온 동전: 10
+//            꺼내온 동전: 500
+//            꺼내온 동전: 50
+//            꺼내온 동전: 100
         }
     }
 

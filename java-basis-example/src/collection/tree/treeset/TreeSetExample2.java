@@ -16,14 +16,14 @@ public class TreeSetExample2 {
         // 내림차순으로 저장
         final NavigableSet<Integer> descendingSet = scores.descendingSet();
         for(Integer score : descendingSet){
-            System.out.print(score + " ");
+            System.out.print(score + " "); //98 95 87 80 75
         }
         System.out.println();
 
         // 다시 descendingSet을 호출하면 차순이 역전된다.(참고만)
         final NavigableSet<Integer> asendingSet = descendingSet.descendingSet();
         for(Integer score : asendingSet){
-            System.out.print(score + " ");
+            System.out.print(score + " "); //75 80 87 95 98
         }
         System.out.println();
     }

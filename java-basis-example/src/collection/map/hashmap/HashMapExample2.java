@@ -12,9 +12,9 @@ public class HashMapExample2 {
         map.put(new Student(1, "홍길동"), 95);
         map.put(new Student(1, "홍길동"), 90);
 
-        System.out.println("총 Entry 수: " + map.size());
+        System.out.println("총 Entry 수: " + map.size()); //총 Entry 수: 1
 
-        System.out.println(map.get(new Student(1, "홍길동")));
+        System.out.println(map.get(new Student(1, "홍길동"))); //90
     }
 
     public static class Student {

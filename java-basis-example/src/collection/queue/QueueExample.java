@@ -25,6 +25,10 @@ public class QueueExample {
                 case "sendKakaotalk":
                     System.out.println(message.to + "님에게 카카오톡을 보냅니다.");
                     break;
+
+//                홍길동님에게 메일을 보냅니다.
+//                신용권님에게 SMS를 보냅니다.
+//                홍두께님에게 카카오톡을 보냅니다.
             }
         }
     }

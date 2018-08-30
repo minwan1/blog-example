@@ -22,6 +22,9 @@ public class TreeMapExample3 {
 
         for(Map.Entry<String, Integer> entry : rangeMap.entrySet()){
             System.out.println(entry.getKey() + "-" + entry.getValue() + "페이지");
+//            cherry-30페이지
+//            description-40페이지
+//            ever-50페이지
         }
     }
 

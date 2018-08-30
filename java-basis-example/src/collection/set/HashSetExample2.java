@@ -14,7 +14,7 @@ public class HashSetExample2 {
         set.add(new Member("홍길동", 30));
 
         // 객체는 다르지만 동등 객체이기 때문에 1개만 저장된다.
-        System.out.println("총 객체수: " + set.size());
+        System.out.println("총 객체수: " + set.size()); //총 객체수: 1
     }
 
     public static class Member {

@@ -30,7 +30,6 @@ public class ComparatorExample {
         }
     }
 
-
     public static class Fruit {
         private String name;
         private int price;

@@ -17,8 +17,8 @@ public class HashMapExample1 {
         map.put("동장군", 80);
         map.put("홍길동", 95); // 홍길동 변경됨
 
-        System.out.println("총 Entry 수: " + map.size());
-        System.out.println("홍길동: " + map.get("홍길동"));
+        System.out.println("총 Entry 수: " + map.size()); //총 Entry 수: 3
+        System.out.println("홍길동: " + map.get("홍길동")); //95
         System.out.println();
 
         Set<String> keySet = map.keySet();
@@ -28,10 +28,13 @@ public class HashMapExample1 {
             Integer value = map.get(key);
             System.out.println("\t" + key + ": " + value );
         }
+//        홍길동: 95
+//        신용권: 85
+//        동장군: 80
         System.out.println();
 
         map.remove("홍길동");
-        System.out.println("총 Entry 수: " + map.size());
+        System.out.println("총 Entry 수: " + map.size()); //총 Entry 수: 2
 
         Set<Map.Entry<String, Integer>> entrySet = map.entrySet();
         Iterator<Map.Entry<String, Integer>> entryIterator = entrySet.iterator();
@@ -41,10 +44,12 @@ public class HashMapExample1 {
             Integer value = entry.getValue();
             System.out.println("\t" + key + ": " + value );
         }
+//        신용권: 85
+//        동장군: 80
         System.out.println();
 
         map.clear();
-        System.out.println("총 Entry 수: " + map.size());
+        System.out.println("총 Entry 수: " + map.size()); //총 Entry 수: 0
 
     }
 

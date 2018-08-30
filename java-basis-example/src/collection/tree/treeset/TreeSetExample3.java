@@ -19,6 +19,9 @@ public class TreeSetExample3 {
         final NavigableSet<String> nSet=treeSet.subSet("c",true,"f",true);
         for(String str:nSet){
             System.out.println(str);
+//            cherry
+//            description
+//            ever
         }
     }
 }

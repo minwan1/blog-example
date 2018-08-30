@@ -19,7 +19,7 @@ public class LinkedListExample {
         }
 
         endTime = System.nanoTime();
-        System.out.println("ArrayList 걸린 시간: " + (endTime-startTime) + "ns");
+        System.out.println("ArrayList 걸린 시간: " + (endTime-startTime) + "ns"); //ArrayList 걸린 시간: 41716022ns
 
         startTime = System.nanoTime();
         for(int i = 0; i<10000; i++){
@@ -27,7 +27,7 @@ public class LinkedListExample {
         }
 
         endTime = System.nanoTime();
-        System.out.println("LinkedList 걸린 시간: " + (endTime-startTime) + "ns");
+        System.out.println("LinkedList 걸린 시간: " + (endTime-startTime) + "ns"); //LinkedList 걸린 시간: 5341246ns
     }
 
 }

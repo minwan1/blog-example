@@ -19,15 +19,15 @@ public class HashtableExample {
         while(true){
             System.out.println("아이디와 비밀번호를 입력해주세요.");
             System.out.print("아이디: ");
-            String id = scanner.nextLine();
+            String id = scanner.nextLine(); //spring
 
             System.out.print("비밀번호: ");
-            String passwd = scanner.nextLine();
+            String passwd = scanner.nextLine(); //12
             System.out.println();
 
             if(map.containsKey(id)){
                 if(map.get(id).equals(passwd)){
-                    System.out.println("로그인 되었습니다.");
+                    System.out.println("로그인 되었습니다."); // success
                     break;
                 } else {
                     System.out.println("비밀번호가 일치하지 않습니다");

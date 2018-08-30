@@ -11,10 +11,17 @@ public class ArraysAsListExample {
             System.out.println(name);
         }
 
+//        홍길동
+//        신용권
+//        감자바
+
         final List<Integer> list2 = Arrays.asList(1, 2, 3);
         for(int value : list2){
             System.out.println(value);
         }
+//        1
+//        2
+//        3
     }
 }
 

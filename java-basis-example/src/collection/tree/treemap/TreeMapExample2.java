@@ -21,6 +21,11 @@ public class TreeMapExample2 {
 
         for(Map.Entry<Integer, String> entry : descendingEntrySet){
             System.out.println(entry.getKey() + "-" + entry.getValue() + " ");
+//            98-이동수
+//            95-신용권
+//            87-홍길동
+//            80-김자바
+//            75-박길순
         }
         System.out.println();
 
@@ -29,6 +34,11 @@ public class TreeMapExample2 {
 
         for(Map.Entry<Integer, String> entry : asendingEntrySet){
             System.out.println(entry.getKey() + "-" + entry.getValue() + " ");
+//            75-박길순
+//            80-김자바
+//            87-홍길동
+//            95-신용권
+//            98-이동수
         }
         System.out.println();
     }
