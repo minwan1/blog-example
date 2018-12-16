@@ -9,17 +9,17 @@ public class Calculator {
 
     public void setMemory(int memory) {
 
-        synchronized (this){
+        synchronized (this) {
             this.memory = memory;
-        try {
-            Thread.sleep(2000);
-        }catch (Exception e){
-        }
-        System.out.println(Thread.currentThread().getPriority() + ":" + this.getMemory());
+            try {
+                Thread.sleep(2000);
+            } catch (Exception e) {
+            }
+            System.out.println(Thread.currentThread().getPriority() + ":" + this.getMemory());
         }
     }
 
-    public void settest(){
+    public void settest() {
         this.memory = 1;
     }
 }

@@ -6,7 +6,16 @@ public class CalcThread extends Thread{
     }
 
     public void run(){
-        for(int i = 0; i <2000000000; i++){
+        for(long i = 0; i <2000000000; i++){
+            int a = 1;
+            a= 2;
+            a  += 1;
+            a  += 1;
+            a  += 1;
+            a  += 1;
+            a  += 1;
+            a  += 1;
+            a  += 1;
 
         }
         System.out.println(getName());
