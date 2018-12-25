@@ -1,0 +1,28 @@
+
+spring:
+  profiles:
+    active: local
+
+---
+#mysql
+#---
+spring:
+  profiles: local
+  jpa:
+    database: mysql
+    properties.hibernate.dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+#    properties:
+#      hibernate.format_sql: true
+  datasource:
+#    data: classpath:data-h2.sql # 시작할때 실행시킬 script
+    url: jdbc:mysql://localhost:3306/relation?useSSL=false
+    username: root
+    password:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+logging:
+  level:
+    ROOT: info
