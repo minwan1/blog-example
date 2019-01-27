@@ -16,3 +16,4 @@
 * [AspectJ 프레임워크 사용해보기]() <br>
 
 ## JPA
+* [JPA-관계설정](https://github.com/minwan1/blog-example/tree/master/jpa-relation)
