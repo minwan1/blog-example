@@ -1,0 +1,5 @@
+rootProject.name = 'multi-sample'
+
+include 'multi-sample-core'
+include 'muliti-sample-api'
+
