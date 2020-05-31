@@ -1,0 +1,19 @@
+
+= Member API
+:doctype: book
+:toc: left
+:sectnums:
+:toclevels: 3
+:source-highlighter: highlightjs
+
+
+== Host
+|===
+|환경|Host
+|LOCAL|http://localhost:8080
+|===
+
+== APIs
+URL은 `/api/`로 시작한다.
+
+include::member.adoc[]

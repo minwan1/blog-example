@@ -1,0 +1,19 @@
+=== Member
+
+==== GET
+===== Request
+Request 형식은 다음과 같다:
+include::{snippets}/member/http-request.adoc[]
+
+include::{snippets}/member/path-parameters.adoc[]
+
+====== Try with curl
+include::{snippets}/member/curl-request.adoc[]
+
+
+===== Response
+성공할 경우 response 형식은 다음과 같다:
+include::{snippets}/member/http-response.adoc[]
+
+====== Response Fields
+include::{snippets}/member/response-fields.adoc[]
